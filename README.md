@@ -4,7 +4,6 @@ A Dual-Core FreeRTOS-based single-phase smart energy meter built on the ESP32.
 
 ## Overview
 This project continuously tracks power consumption parameters such as Voltage, Current, Real Power, Power Factor, and Accumulated Energy using high-speed DMA-based ADC sampling and 64-bit DSP computations on Core 1 of the ESP32. Meanwhile, Core 0 manages Wi-Fi communication and synchronizes telemetry data with the Blynk IoT Cloud, enabling real-time monitoring, visualization, and continuous energy data storage.
-Tiny dual-core chip doing industrial-style multitasking while most humans struggle to keep two browser tabs emotionally stable.
 ## Key Features
 - **Dual-Core Architecture:** Segregates heavy math calculations from IoT networking to ensure reliable and uninterrupted sampling.
 - **High-Frequency DMA Sampling:** Reads raw voltage and current data at 20kHz via hardware DMA.
