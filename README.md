@@ -1,4 +1,4 @@
-# ioT-Based Single Phase Smart Energy Meter Using Dual-Core Edge Processing
+# IoT-Based Single Phase Smart Energy Meter Using Dual-Core Edge Processing
 
 A Dual-Core FreeRTOS-based single-phase smart energy meter built on the ESP32.
 
